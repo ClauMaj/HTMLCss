@@ -1,0 +1,65 @@
+body{
+    margin: 0px;
+    background-color: gray;
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 80vw;
+    height: 90vh;
+    background-color: gray;
+    margin: 10px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+}
+.flex1{
+    flex: 1;
+}
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+}
+.flex8{
+    flex: 8;
+}
+.flex4{
+    flex: 4;
+}
+.flexContainerColumn{
+    flex-direction: column;
+    align-items: stretch;
+    height: 100%;
+    display: flex;
+
+}
+.flexContainerRow{
+    flex-direction: row;
+    display: flex;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.green{
+    background-color: green;
+}
+.border{
+    border: 2px solid rgb(82, 81, 81);
+}
